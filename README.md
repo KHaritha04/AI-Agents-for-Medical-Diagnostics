@@ -38,7 +38,7 @@ You will need the following Python libraries to run this project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Agents-for-Medical-Diagnostics.git
+git clone https://github.com/KHaritha04/AI-Agents-for-Medical-Diagnostics
 ```
 
 ### 2. Navigate to the Project Directory
@@ -153,57 +153,3 @@ results/final_diagnosis.txt
   results/final_diagnosis.txt
   ```
 - Review the summarized report from all AI agents.
-
----
-
-## 🧱 Project Structure
-
-```bash
-AI-Agents-for-Medical-Diagnostics/
-│
-├── app.py                  # Flask app entry point
-├── config.py               # Database & environment configuration
-│
-├── agents/                 # AI Agent scripts
-│   ├── cardiologist.py     # Cardiologist agent logic
-│   ├── psychologist.py     # Psychologist agent logic
-│   └── pulmonologist.py    # Pulmonologist agent logic
-│
-├── results/                # Diagnosis outputs
-│   └── final_diagnosis.txt
-│
-├── database_setup.sql      # SQL schema and initialization script
-├── requirements.txt        # Dependency list
-└── README.md               # Documentation
-```
-
----
-## 🤝 Contributing
-
-We welcome community contributions!
-
-1. Fork this repository  
-2. Create your feature branch  
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes  
-   ```bash
-   git commit -am 'Add new feature'
-   ```
-4. Push to your branch  
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request 🎉
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for full details.
-
----
-
-
